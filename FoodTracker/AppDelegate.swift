@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  FoodTracker
 //
-//  Created by a.e.goncharov on 04/04/2019.
 //  Copyright © 2019 Example Inc. All rights reserved.
 //
 

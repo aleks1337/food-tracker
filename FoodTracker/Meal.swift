@@ -2,7 +2,6 @@
 //  Meal.swift
 //  FoodTracker
 //
-//  Created by Александр Гончаров on 04/12/2019.
 //  Copyright © 2019 Example Inc. All rights reserved.
 //
 
