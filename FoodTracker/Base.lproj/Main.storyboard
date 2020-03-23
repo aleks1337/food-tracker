@@ -44,6 +44,7 @@
                                     <outlet property="nameLabel" destination="UwT-6r-LCN" id="CEU-VS-WOH"/>
                                     <outlet property="photoImageView" destination="OzO-2I-NBh" id="cis-Ue-zLB"/>
                                     <outlet property="ratingControl" destination="hOT-1J-563" id="o5g-pc-gww"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="PFP-2P-yH6"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -73,11 +74,11 @@
                         <viewControllerLayoutGuide type="bottom" id="UL6-a4-8NX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1OH-xK-gGn">
-                                <rect key="frame" x="16" y="76" width="343" height="414"/>
+                                <rect key="frame" x="16" y="64" width="343" height="414"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SVc-Sg-AW7">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="34"/>
@@ -179,4 +180,7 @@
     <resources>
         <image name="Image" width="540" height="540"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="PFP-2P-yH6"/>
+    </inferredMetricsTieBreakers>
 </document>
